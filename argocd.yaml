@@ -1,0 +1,13 @@
+global:
+  image:
+    tag: v2.6.6
+
+server:
+  extraArgs:
+    - --insecure
+
+redis:
+  enabled: true
+
+redis-ha:
+  enabled: false
