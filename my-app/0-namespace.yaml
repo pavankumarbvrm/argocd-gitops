@@ -27,6 +27,6 @@ spec:
     spec:
       containers:
         - name: my-app-container
-          image: pavankumarbvrm/nginx:new
+          image: pavankumarbvrm/nginx:stable
           ports:
             - containerPort: 80
